@@ -8,9 +8,9 @@
 
 * Mobile First ***Always***.
 
-* All styles are done inline because some email services don't read <style> tags.
+* All styles are done inline because some email services don't read style tags.
 
-* Some email services chop off the <head> so don't put anything there.
+* Some email services chop off the head so don't put anything there.
 
 * Never style the body element.
 
@@ -18,7 +18,7 @@
 
 * Don't waste time on creating directories to organize the files. The email should be simple, clean and probably will never be used again (Unless you want a template).
 
-* Pro tip: put your <styles> in the <head> then use this tool to make your css inline [CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/). Then delete the <head> and <style> tags.
+* Pro tip: put your style tag in the head then use this tool to make your css inline ([CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/)). Then delete the head and style tags.
 
 ---
 
