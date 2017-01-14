@@ -23,13 +23,16 @@
 ---
 
 ### Step 1
-Start by creating a regular HTML document.
+Start by creating a regular HTML document and put your styles in the head of the document.
 
 ```
 
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+
+    </style>
   </head>
 
   <body>
@@ -89,3 +92,30 @@ Now we are going to create the ***pre-header*** which is the short summary text 
 ---
 
 ### Step 4
+
+Do all your regular HTLM designs inside the email-container div. Remember try to make the layout simple and in a single column.
+
+---
+
+### Step 5
+
+Style your document using the style tags in the head.
+
+```
+<head>
+  <style>
+
+    .email-background {
+      background-color: #eee;
+    }
+
+  </style>
+</head>
+
+```
+
+---
+
+### Step 6
+
+Once you are done styling your document create a second copy and call it "whateveryouwant-inline.html", then go to [CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/). Copy and paste all of your code into the tool and let it make all the styles inline for you. Once thats done copy the new code into your "inline.html" file. One thats all done
