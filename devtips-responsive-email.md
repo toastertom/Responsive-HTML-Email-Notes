@@ -118,4 +118,32 @@ Style your document using the style tags in the head.
 
 ### Step 6
 
-Once you are done styling your document create a second copy and call it "whateveryouwant-inline.html", then go to [CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/). Copy and paste all of your code into the tool and let it make all the styles inline for you. Once thats done copy the new code into your "inline.html" file. One thats all done
+Once you are done styling your document create a second copy and call it "whateveryouwant-inline.html", then go to [CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/). Copy and paste all of your code into the tool and let it make all the styles inline for you. Once thats done copy the new code into your "whateveryouwant-inline.html" file.
+
+---
+
+### Step 7
+
+Now that you have all your code inline you will want to go through and delete your DOCTYPE!, html, head, style, and body tags. Gmail removes these anyways but you want to make sure everything still works on your end without them.
+
+```
+<!-- This is all that there will be -->
+
+<div class="email-background" style="background-color: #eee">
+
+  <div class="pre-header">
+    5 tips for creating a responsive email!
+  </div>
+
+  <div class="email-container">
+
+  </div>
+
+</div>
+
+
+```
+
+---
+
+#END
