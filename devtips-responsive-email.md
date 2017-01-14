@@ -18,7 +18,7 @@
 
 * Don't waste time on creating directories to organize the files. The email should be simple, clean and probably will never be used again (Unless you want a template).
 
-* Pro tip: put your <styles> in the <head> then use this tool to make your css inline ([CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/)). Then delete the <head> and <style> tags.
+* Pro tip: put your <styles> in the <head> then use this tool to make your css inline [CSS Inliner Tool](https://templates.mailchimp.com/resources/inline-css/). Then delete the <head> and <style> tags.
 
 ---
 
